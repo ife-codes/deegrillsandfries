@@ -26,13 +26,13 @@ const Header = () => {
             <nav className={open === "open" ? "nav-active" : "all-flex gp-30"}>
                 <ul className="all-flex gp-20">
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/" onClick={() => setOpen("close")}>Home</Link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/about" onClick={() => setOpen("close")}>About</Link>
                     </li>
                     <li>
-                        <Link to="/menu">Menu</Link>
+                        <Link to="/menu" onClick={() => setOpen("close")}>Menu</Link>
                     </li>
                 </ul>
             </nav>
