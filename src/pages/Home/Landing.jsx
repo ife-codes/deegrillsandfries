@@ -16,7 +16,6 @@ const Landing = () => {
                 <Link to="/menu">
                     <button className="landing-btn">Explore menu</button>
                 </Link>
-                <img src="./images/landing.png" alt="" />
             </div>
         </section>
     );
