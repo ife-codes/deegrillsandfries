@@ -1,0 +1,114 @@
+@media (max-width: 1600px) {
+
+  .boxes,
+  .services-boxes,
+  .reviews-boxes,
+  .menus {
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 1100px) {
+
+  .landing,
+  .brief,
+  .menu-section,
+  .services,
+  .reviews,
+  .menu-page,
+  .about,
+  .error,
+  header,
+  footer {
+    padding: 20px 50px !important;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  footer .socials {
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 850px) {
+
+  .brief,
+  .about-food {
+    flex-direction: column;
+  }
+
+  .brief h1,
+  .brief p,
+  .about-food h1,
+  .about-food p {
+    text-align: center !important;
+    line-height: 1.5rem;
+  }
+
+  .landing,
+  .menu-section,
+  .menu-page,
+  .services,
+  .reviews,
+  .brief,
+  .about,
+  .error,
+  header,
+  footer {
+    padding: 20px 30px !important;
+  }
+
+  footer .instagram img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  header .hamburger {
+    display: flex;
+    z-index: 6;
+  }
+
+  header h3 {
+    z-index: 6;
+    font-size: 1rem;
+  }
+
+  header nav {
+    min-height: 100svh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: -1000px;
+    z-index: 5;
+    background-color: #000;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 100svh;
+  }
+
+  .brief img,
+  .about-food img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .box,
+  .review,
+  .service {
+    width: 100%;
+  }
+}
