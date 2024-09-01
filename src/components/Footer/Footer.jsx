@@ -24,37 +24,53 @@ const Footer = () => {
                 <div className="contact">
                     <div className="social-links">
                         <a
-                            href="https://facebook.com"
+                            href="https://x.com/deegrillsfries"
                             target="_blank"
                             className="link"
                         >
-                            <img src="./icons/twitter.png" width="50px" alt="Facebook" />
+                            <img
+                                src="./icons/twitter.png"
+                                width="50px"
+                                alt="Twitter"
+                            />
                         </a>
                         <a
-                            href="https://facebook.com"
+                            href="https://www.instagram.com/deegrillsandfries/"
                             target="_blank"
                             className="link"
                         >
-                            <img src="./icons/twitter.png" width="50px" alt="Instagram" />
+                            <img
+                                src="./icons/instagram.png"
+                                width="50px"
+                                alt="Instagram"
+                            />
                         </a>
                         <a
-                            href="https://facebook.com"
+                            href="https://web.facebook.com/profile.php?id=100067892690813&mibextid=LQQJ4d&rdid=SDUodCOq2FFgtHps&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1Gg9gRAQkpz4qn2u%2F%3Fmibextid%3DLQQJ4d%26_rdc%3D1%26_rdr"
                             target="_blank"
                             className="link"
                         >
-                            <img src="./icons/twitter.png" width="50px" alt="Twitter" />
+                            <img
+                                src="./icons/facebook.png"
+                                width="50px"
+                                alt="Facebook"
+                            />
                         </a>
                         <a
-                            href="https://facebook.com"
+                            href="https://www.tiktok.com/@deegrillsandfries"
                             target="_blank"
                             className="link"
                         >
-                            <img src="./icons/twitter.png" width="50px" alt="Facebook" />
+                            <img
+                                src="./icons/tiktok.png"
+                                width="50px"
+                                alt="Tiktok"
+                            />
                         </a>
                     </div>
                     <div className="whatsapp">
                         <h3>whatsapp number</h3>
-                        <p className="phone-number">+234 7083 238 668</p>
+                        <p className="phone-number">08106548904</p>
                     </div>
                 </div>
             </div>
@@ -69,9 +85,6 @@ const Footer = () => {
                     </li>
                     <li>
                         <Link to="/menu">Menu</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>
