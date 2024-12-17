@@ -4,6 +4,7 @@ import MenuSection from './MenuSection'
 import Brief from './Brief'
 import Services from './Services'
 import Reviews from './Reviews'
+import Popcorn from './Popcorn'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Landing />
       <MenuSection />
       <Brief />
+      <Popcorn />
       <Services />
       <Reviews />
     </main>
