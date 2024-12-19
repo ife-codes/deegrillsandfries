@@ -16,9 +16,9 @@ const Popcorn = () => {
         }
     ]
   return (
-    <section className='popcorn pad wrap-flex gp-50'>
+    <section className='popcorn-container pad wrap-flex gp-50'>
         <h2>Scrumptious Pop Corn</h2>
-        <div className='all-flex gp-40'>
+        <div className='popcorn all-flex gp-40'>
             {data.map((info) => (
                 <img src={info.path} key={info.id} width="300px" />
             ))}

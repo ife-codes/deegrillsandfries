@@ -1,5 +1,4 @@
-@media (max-width: 1600px) {
-
+ @media (max-width: 1600px) {
   .boxes,
   .services-boxes,
   .reviews-boxes,
@@ -19,7 +18,8 @@
   .about,
   .error,
   header,
-  footer {
+  footer,
+  .popcorn {
     padding: 20px 50px !important;
   }
 
@@ -39,7 +39,8 @@
 @media (max-width: 850px) {
 
   .brief,
-  .about-food {
+  .about-food,
+  .popcorn {
     flex-direction: column;
   }
 
